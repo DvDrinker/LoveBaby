@@ -20,6 +20,7 @@ public class TeacherController {
 		List<Teacher> teachers = teacherService.findTeachers();
 		model.addAttribute("teachers",teachers);
 		System.out.println("teachers:"+teachers);
+		System.out.println("teachers1:"+teachers);
 		return "index";
 	}
 	
